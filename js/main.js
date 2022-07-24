@@ -2,16 +2,6 @@ import { Kaitlente  } from "./Kaitlente.js";
 
 const kaitlKiekis = 5;
 
-const titleDOM = document.querySelector('.title');
-
-if (kaitlKiekis % 2 === 0){
-  titleDOM.classList.add('bold');
-}
-
-if(document.querySelector('.karsta')){
-  titleDOM.classList.add('red');
-}
-
 document.querySelector('main').textContent ='';
 //sukuria kaitlentes
 for (let i=1; i <= kaitlKiekis; i++){

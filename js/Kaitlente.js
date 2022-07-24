@@ -3,7 +3,6 @@ class Kaitlente{
     this.size=skyliuKiekis;
     this.jungi = null;
     this.kaitl = null;
-    this.switch = null;
   }
   render(size){
     const mainDOM = document.querySelector('main');
@@ -21,8 +20,7 @@ class Kaitlente{
     mainDOM.innerHTML += HTML;
     
   }
-  
-  
+    
   enableClicks(a){
     this.jungi = document.querySelectorAll('.bottom .jungiklis');
     this.kaitl = document.querySelectorAll('.top .skyle');
